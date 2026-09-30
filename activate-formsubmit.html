@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Activate FormSubmit</title>
+</head>
+<body style="font-family:sans-serif;text-align:center;padding:60px;">
+  <h2>Click the button below once to activate FormSubmit</h2>
+  <p>This is a plain (non-AJAX) form submission — it will redirect you to FormSubmit's page and trigger the activation email to mehmammehmam@gmail.com.</p>
+  <form action="https://formsubmit.co/mehmammehmam@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Activation test">
+    <input type="text" name="name" value="Test Activation" style="display:none">
+    <input type="email" name="email" value="test@example.com" style="display:none">
+    <textarea name="message" style="display:none">This is a one-time activation submission.</textarea>
+    <button type="submit" style="padding:14px 28px;font-size:16px;cursor:pointer;">
+      Activate FormSubmit Now
+    </button>
+  </form>
+</body>
+</html>
